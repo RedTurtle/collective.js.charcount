@@ -1,6 +1,6 @@
-*********************
+*************************
 collective.js.charcount
-*********************
+*************************
 
 .. contents:: Table of Contents
 
@@ -98,6 +98,11 @@ How to install
 
 This addon can be installed as any other Plone addon. Please follow official
 documentation_.
+
+
+After installing the package on your portal you can access the demo in:
+http://youportal.com/++resource++collective.js.charcount.demo.html
+
 
 .. _documentation: http://plone.org/documentation/kb/installing-add-ons-quick-how-to
 
