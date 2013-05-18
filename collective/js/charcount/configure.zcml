@@ -15,18 +15,14 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
-  <browser:resourceDirectory
-    name="collective.js.charcount"
-    directory="resources"
+  <browser:resource
+    name="collective.js.charcount.js"
+    file="resources/charcount.js"
     />
 
-  <genericsetup:upgradeStep
-      source="*"
-      destination="1000"
-      title="Cook resources"
-      description=""
-      profile="collective.js.charcount:default"
-      handler=".upgrades.cookResources"
-      />
+  <browser:resource
+    name="collective.js.charcount.demo.html"
+    file="resources/demo.html"
+    />
 
 </configure>

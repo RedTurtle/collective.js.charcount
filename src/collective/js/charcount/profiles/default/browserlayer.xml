@@ -1,6 +1,0 @@
-<layers>
-<!-- uncomment to activate
-    <layer name="collective.js.charcount"
-           interface="collective.js.charcount.interfaces.ILayer" />
--->
-</layers>

@@ -1,5 +1,5 @@
 *********************
-collective.charcount
+collective.js.charcount
 *********************
 
 .. contents:: Table of Contents
@@ -103,12 +103,12 @@ documentation_.
 
 Have an idea? Found a bug? Let us know by `opening a support ticket`_.
 
-.. _`opening a support ticket`: https://github.com/collective/collective.charcount/issues
+.. _`opening a support ticket`: https://github.com/collective/collective.js.charcount/issues
 
 
 Mostly Harmless
 ---------------
 
-.. image:: https://secure.travis-ci.org/collective/collective.charcount.png
-    :target: http://travis-ci.org/collective/collective.charcount
+.. image:: https://secure.travis-ci.org/collective/collective.js.charcount.png
+    :target: http://travis-ci.org/collective/collective.js.charcount
 
