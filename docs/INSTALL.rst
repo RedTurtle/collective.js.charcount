@@ -27,17 +27,14 @@ recipe to manage your project, you can do this:
 
     [buildout]
     ...
-    eggs =
-        ...
-        collective.js.charcount
+    eggs = collective.js.charcount
 
   * Tell the plone.recipe.zope2instance recipe to install a ZCML slug:
 
     [instance]
     recipe = plone.recipe.zope2instance
     ...
-    zcml =
-        collective.js.charcount
+    zcml = collective.js.charcount
 
   * Re-run buildout, e.g. with:
 
