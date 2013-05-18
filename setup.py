@@ -20,7 +20,6 @@ setup(name='collective.js.charcount',
                      for textareas and input fields''',
       long_description=long_description,
       classifiers=[
-        "Development Status :: 1 - Alpha",
         "Framework :: Plone",
         "Framework :: Plone :: 4.2",
         "Framework :: Plone :: 4.3",
