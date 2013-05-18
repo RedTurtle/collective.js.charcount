@@ -14,7 +14,7 @@ long_description = (
     open(os.path.join("docs", "HISTORY.rst")).read()
 )
 
-setup(name='collective.charcount',
+setup(name='collective.js.charcount',
       version=version,
       description='''jQuery plugin dynamic character count
                      for textareas and input fields''',
@@ -32,11 +32,10 @@ setup(name='collective.charcount',
       keywords='count plone',
       author='Cleber J Santos',
       author_email='cleber@cleberjsantos.com.br',
-      url='https://github.com/collective/collective.charcount',
+      url='https://github.com/collective/collective.js.charcount',
       license='GPLv2',
-      packages=find_packages('src'),
-      package_dir={'': 'src'},
-      namespace_packages=['collective'],
+      packages=find_packages(exclude=['ez_setup']),
+      namespace_packages=['collective', 'collective.js'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

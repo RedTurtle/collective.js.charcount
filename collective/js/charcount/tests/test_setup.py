@@ -4,11 +4,11 @@ import unittest2 as unittest
 from plone.app.testing import TEST_USER_ID
 from plone.app.testing import setRoles
 
-from collective.charcount.testing import INTEGRATION_TESTING
+from collective.js.charcount.testing import INTEGRATION_TESTING
 
-PROJECTNAME = 'collective.charcount'
+PROJECTNAME = 'collective.js.charcount'
 
-JS = ['++resource++collective.charcount.js']
+JS = ['++resource++collective.js.charcount.js']
 
 
 class InstallTestCase(unittest.TestCase):

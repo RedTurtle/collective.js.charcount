@@ -14,21 +14,21 @@ class Fixture(PloneSandboxLayer):
 
     def setUpZope(self, app, configurationContext):
         # Load ZCML
-        import collective.charcount
-        self.loadZCML(package=collective.charcount)
+        import collective.js.charcount
+        self.loadZCML(package=collective.js.charcount)
 
     def setUpPloneSite(self, portal):
         # Install into Plone site using portal_setup
-        self.applyProfile(portal, 'collective.charcount:default')
+        self.applyProfile(portal, 'collective.js.charcount:default')
 
 FIXTURE = Fixture()
 INTEGRATION_TESTING = IntegrationTesting(
     bases=(FIXTURE,),
-    name='collective.charcount:Integration',
+    name='collective.js.charcount:Integration',
 )
 
 
 FUNCTIONAL_TESTING = FunctionalTesting(
     bases=(FIXTURE, ZSERVER_FIXTURE),
-    name='collective.charcount:Functional',
+    name='collective.js.charcount:Functional',
 )

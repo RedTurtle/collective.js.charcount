@@ -1,6 +1,0 @@
-<layers>
-<!-- uncomment to activate
-    <layer name="collective.charcount"
-           interface="collective.charcount.interfaces.ILayer" />
--->
-</layers>
