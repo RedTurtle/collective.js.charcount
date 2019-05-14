@@ -25,3 +25,4 @@ lib
 *.pyo
 *.tmp*
 *~
+node_modules

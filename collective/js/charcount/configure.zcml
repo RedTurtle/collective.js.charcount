@@ -1,6 +1,6 @@
 <configure
     xmlns="http://namespaces.zope.org/zope"
-    xmlns:browser="http://namespaces.zope.org/browser"
+    xmlns:plone="http://namespaces.plone.org/plone"
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="collective.js.charcount">
@@ -15,14 +15,18 @@
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
-  <browser:resource
-    name="collective.js.charcount.js"
-    file="resources/charcount.js"
-    />
+  <genericsetup:registerProfile
+      name="uninstall"
+      title="collective.js.charcount (uninstall)"
+      directory="profiles/uninstall"
+      description="Uninstalls the collective.js.charcount package"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      />
 
-  <browser:resource
-    name="collective.js.charcount.demo.html"
-    file="resources/demo.html"
+  <plone:static
+    name="collective-js-charcount"
+    directory="resources"
+    type="plone"
     />
 
 </configure>

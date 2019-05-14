@@ -1,11 +1,11 @@
-#-*- coding:utf-8 -*-
+# -*- coding:utf-8 -*-
 
 from setuptools import setup
 from setuptools import find_packages
 
 import os
 
-version = '1.1.1.dev0'
+version = '2.0.0.dev0'
 
 long_description = (
     open("README.rst").read() + "\n" +
@@ -21,8 +21,9 @@ setup(name='collective.js.charcount',
       long_description=long_description,
       classifiers=[
         "Framework :: Plone",
-        "Framework :: Plone :: 4.2",
-        "Framework :: Plone :: 4.3",
+        "Framework :: Plone :: 5.0",
+        "Framework :: Plone :: 5.1",
+        "Framework :: Plone :: 5.2",
         "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
         "Operating System :: OS Independent",
         "Programming Language :: JavaScript",

@@ -8,7 +8,7 @@ from collective.js.charcount.testing import INTEGRATION_TESTING
 
 PROJECTNAME = 'collective.js.charcount'
 
-JS = ['++resource++collective.js.charcount.js']
+JS = ['++plone++collective-js-charcount/charcount.js']
 
 
 class InstallTestCase(unittest.TestCase):

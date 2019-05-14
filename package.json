@@ -1,0 +1,32 @@
+{
+  "name": "collective.js.charcount",
+  "version": "2.0.0",
+  "description": "Plone theme for Plone5 Arpae",
+  "main": "index.js",
+  "scripts": {
+    "build": "uglifyjs --comments --source-map -cmo collective/js/charcount/resources/charcount-compiled.js collective/js/charcount/resources/charcount.js",
+    "prettier": "prettier --write src/collective.js.charcount/resources/*.js",
+    "prettier:test": "prettier --list-different src/collective.js.charcount/resources/*.js",
+    "test": "npm run prettier:test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/collective/collective.js.charcount.git"
+  },
+  "keywords": [
+    "plone",
+    "collective",
+    "charcount"
+  ],
+  "license": "GPL-2.0",
+  "homepage": "https://github.com/collective/collective.js.charcount#readme",
+  "devDependencies": {
+    "@redturtle/eslint-config": "^2.0.0",
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.2.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.17.0",
+    "uglify-js": "^3.5.12"
+  }
+}
