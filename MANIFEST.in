@@ -4,4 +4,11 @@ include *.txt
 recursive-include collective *
 recursive-include docs *
 
+exclude .eslintrc.json
+exclude .prettierrc.json
+exclude bootstrap.py
+exclude buildout.cfg
+exclude package.json
+exclude travis.cfg
+exclude yarn.lock
 global-exclude *pyc
